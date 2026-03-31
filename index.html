@@ -1,139 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sahana B S | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Sahana B S | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Background Animation -->
-    <div class="bg-animation"></div>
+<div class="bg-animation"></div>
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">Sahana B S</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<header class="navbar">
+  <div class="logo">Sahana B S</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <!-- HOME -->
-    <section id="home" class="hero">
-        <h1 class="reveal">Sahana B S</h1>
-        <p class="subtitle reveal">
-            <span id="typing"></span>
-        </p>
-        <p class="tagline reveal">
-            Frontend-focused developer crafting clean, scalable, and user-first web experiences.
-        </p>
-        <div class="buttons reveal">
-            <a href="#projects" class="btn primary">View Projects</a>
-        </div>
-    </section>
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1 class="reveal">Sahana B S</h1>
+  <p class="subtitle reveal"><span id="typing"></span></p>
 
-    <!-- ABOUT -->
-    <section id="about" class="section slide-left">
-        <h2>About Me</h2>
-        <p class="content">
-            BCA student with strong academic performance and a deep interest in frontend 
-            and full-stack development. I focus on clarity, structure, and professional UI design.
-        </p>
-    </section>
+  <p class="tagline reveal">
+    Frontend-focused developer crafting clean, scalable, and user-first web experiences.
+  </p>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section dark slide-right">
-        <h2>Core Skills</h2>
-        <p class="content small">
-            Focused on clean UI, structured logic, and scalable frontend development.
-        </p>
+  <div class="buttons reveal">
+    <a href="#projects" class="btn primary">View Projects</a>
+  </div>
+</section>
 
-        <div class="cards">
-            <div class="card slide-left">HTML • CSS • JavaScript</div>
-            <div class="card slide-right">Python Programming</div>
-            <div class="card slide-left">Java (OOP)</div>
-            <div class="card slide-right">C Programming</div>
-            <div class="card slide-left">SQL & DBMS</div>
-        </div>
-    </section>
+<!-- ABOUT -->
+<section id="about" class="section slide-left">
+  <h2>About Me</h2>
+  <p class="content">
+    BCA student with strong academic performance and a deep interest in frontend and
+    full-stack development. I focus on clarity, structure, and professional UI design.
+  </p>
+</section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section slide-left">
-        <h2>Projects</h2>
+<!-- SKILLS -->
+<section id="skills" class="section dark slide-right">
+  <h2>Core Skills</h2>
+  <p class="content small">
+    Focused on clean UI, structured logic, and scalable frontend development.
+  </p>
 
-        <div class="projects">
+  <div class="cards">
+    <div class="card slide-left">HTML • CSS • JavaScript</div>
+    <div class="card slide-right">Python Programming</div>
+    <div class="card slide-left">Java (OOP)</div>
+    <div class="card slide-right">C Programming</div>
+    <div class="card slide-left">SQL & DBMS</div>
+  </div>
+</section>
 
-            <!-- Featured Project -->
-            <div class="project-card featured slide-left"
-                onclick="openModal(
-                    'Professional Portfolio Website',
-                    'A premium dark-themed portfolio with animations, glassmorphism, and recruiter-focused UI. Built to demonstrate frontend design maturity.',
-                    'HTML • CSS • JavaScript'
-                )">
+<!-- PROJECTS -->
+<section id="projects" class="section slide-left">
+  <h2>Projects</h2>
 
-                <span class="badge">FEATURED</span>
-                <h3>Professional Portfolio</h3>
-                <p>Premium animated portfolio website</p>
-                <span>View Details</span>
-            </div>
+  <div class="projects">
 
-            <!-- Project 2 -->
-            <div class="project-card slide-left"
-                onclick="openModal(
-                    'Mini Web Applications',
-                    'Small frontend applications focused on UI interactions, validation, and usability.',
-                    'Frontend Development'
-                )">
-
-                <h3>Mini Web Apps</h3>
-                <p>UI-focused practice projects</p>
-                <span>View Details</span>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section slide-right">
-        <h2>Contact</h2>
-
-        <div class="contact-box">
-            <p>📧 <a href="mailto:sahanasuresh015@gmail.com">sahanasuresh015@gmail.com</a></p>
-            <p>📱 <a href="tel:+918197967193">+91 81979 67193</a></p>
-            <p>💼 <a href="https://www.linkedin.com/in/sahana-b-s-0a7293345" target="_blank">LinkedIn Profile</a></p>
-            <p>💻 <a href="https://github.com/Sahana810" target="_blank">GitHub Profile</a></p>
-            <p>📍 Shivamogga, Karnataka, India</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        © 2026 Sahana B S · Designed & Developed by Me
-    </footer>
-
-    <!-- MODAL -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h3 id="modalTitle"></h3>
-            <p id="modalDesc"></p>
-            <span id="modalTech"></span>
-        </div>
+    <!-- FEATURED PROJECT -->
+    <div class="project-card featured slide-left"
+      onclick="openModal(
+      'Professional Portfolio Website',
+      'A premium dark-themed portfolio with animations, glassmorphism, and recruiter-focused UI. Built to demonstrate frontend design maturity.',
+      'HTML • CSS • JavaScript')">
+      <span class="badge">FEATURED</span>
+      <h3>Professional Portfolio</h3>
+      <p>Premium animated portfolio website</p>
+      <span>View Details</span>
     </div>
 
-    <!-- JS -->
-    <script src="script.js"></script>
+    <div class="project-card slide-left"
+      onclick="openModal(
+      'Mini Web Applications',
+      'Small frontend applications focused on UI interactions, validation, and usability.',
+      'Frontend Development')">
+      <h3>Mini Web Apps</h3>
+      <p>UI-focused practice projects</p>
+      <span>View Details</span>
+    </div>
 
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section slide-right">
+  <h2>Contact</h2>
+
+  <div class="contact-box">
+    <p>📧 <a href="mailto:sahanasuresh015@gmail.com">sahanasuresh015@gmail.com</a></p>
+    <p>📱 <a href="tel:+918197967193">+91 81979 67193</a></p>
+    <p>💼 <a href="https://www.linkedin.com/in/sahana-b-s-0a7293345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></p>
+    <p>💻 <a href="https://github.com/Sahana810" target="_blank">GitHub Profile</a></p>
+    <p>📍 Shivamogga, Karnataka, India</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Sahana B S · Designed & Developed by Me
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <span id="modalTech"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
